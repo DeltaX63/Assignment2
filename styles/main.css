@@ -77,5 +77,5 @@ footer p {
 
 footer{
 		border-top-style: solid;
-		background: linear-gradient(to bottom right, white, orange, black);
+		background: linear-gradient(45deg, white, orange, black);
 }
