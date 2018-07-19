@@ -19,7 +19,7 @@ a:hover, a:focus {
 
 /* Header */
 header {
-    background: linear-gradient(to bottom right, white, orange, black);
+    background: linear-gradient(to bottom right, white 75%, orange, black);
   	border-bottom-style: solid;
 }
 
@@ -60,5 +60,5 @@ footer p {
 
 footer{
 		border-top-style: solid;
-		background: linear-gradient(to top left, white, orange, black);
+		background: linear-gradient(to top left, white 75%, orange, black);
 }
