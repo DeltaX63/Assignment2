@@ -2,6 +2,9 @@ body  {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	width: 800px;
 	background-color: white;
+	margin: auto;
+	border-style: solid;
+	box-shadow: 5px 10px;
 }
 a {
     font-weight: bold;
@@ -15,15 +18,17 @@ a:hover, a:focus {
 }
 
 /* Header */
+header {
+    background: linear-gradient(to bottom right, white, orange, black);
+  	border-bottom-style: solid;
+}
+
 header img { 
 	float: left; 
 } 
 header h2 {
 	font-size: 230%;
-	font-style: italic;
-	color: orange;
 	text-indent: 25px;
-	text-shadow: 2px 2px 2px black;
 }
 header h3 {
 	font-size: 125%;
@@ -51,4 +56,9 @@ ul {
 footer p {
 	font-size: 90%;
 	text-align: center;
+}
+
+footer{
+		border-top-style: solid;
+		background: linear-gradient(to top left, white, orange, black);
 }
