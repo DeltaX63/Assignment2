@@ -68,6 +68,12 @@ main h3 {
 ul {
 	line-height: 1.5;
 }
+#cat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+{
 
 /* Footer */
 footer p {
